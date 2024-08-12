@@ -1,0 +1,44 @@
+﻿// colors.scss
+
+// Background Colors
+$background-color: #f5f5f5;
+$content-background-color: #ffffff;
+$task-item-background-color: #e8e8e8;
+
+// Font Colors
+$primary-font-color: #333333;
+$secondary-font-color: #666666;
+
+// Button Colors
+$button-add-color: #4CAF50;
+$button-complete-color: #2196F3;
+$button-delete-color: #F44336;
+
+// Example usage in other styles
+body {
+  background-color: $background-color;
+  color: $primary-font-color;
+}
+
+.task-list {
+  background-color: $content-background-color;
+}
+
+.task {
+  background-color: $task-item-background-color;
+}
+
+.button-add-task {
+  background-color: $button-add-color;
+  color: #ffffff;
+}
+
+.button-complete {
+  background-color: $button-complete-color;
+  color: #ffffff;
+}
+
+.button-delete {
+  background-color: $button-delete-color;
+  color: #ffffff;
+}

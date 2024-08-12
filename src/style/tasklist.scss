@@ -1,0 +1,19 @@
+﻿.task-list {
+  max-width: 600px;
+  margin: 0 auto;
+  border-left: 1px solid black;
+  border-right: 3px solid black;
+  border-bottom: 3px solid black;
+  border-top: 1px solid black;
+  padding: 16px;
+  
+  .task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 4px;
+    margin-bottom: 8px;
+  }
+}
